@@ -25,9 +25,9 @@ PASS_WORD = "AA@@1122"
 
 THREE_CHARACTERS = "ABC"
 SPECIAL_CHARACTERS = "@#@@##@#@$#@$"
-USERS_NAMES = "Shakeel_9T5q"
+USERS_NAMES = "Shakeel_M_NP"
 WRONG_EMAIL = "Ali@.com"
-CORRECT_EMAIL = "ShakeeNineqqT6lD4a@gmail.com"
+CORRECT_EMAIL = "Shakee_M_NP@gmail.com"
 WRONG_PASSWORD = "AS323232"
 CORRECT_PSWD = "AA@@1122"
 SCND_WRONG_PSWD = "SDSDASD"
@@ -128,7 +128,7 @@ def main():
     time.sleep(1)
 
     Password_4 = driver.find_element(By.XPATH, "//*[@id='passwordNotMatch-id-first']").text
-    make_csv('user Report.csv',f'User Module,Add Correct Password,Password Accepeted,{url_s} \n', new=False)
+    make_csv('user Report.csv',f'User Module,Add Correct Password,Password Accepted,{url_s} \n', new=False)
     time.sleep(1)
 
     Password_5 = SendKeys(driver)

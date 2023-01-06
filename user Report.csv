@@ -1,4 +1,4 @@
-Test Case,Scenario, Result2023-01-03, URL
+Test Case,Scenario, Result2023-01-05, URL
 Login Credential,Username : Shakeel_QA_Admin,Password : AA@@1122
 User Module,Login With Correct Username and Password,Login Successfully,https://staging.brandsignals.io/campaign/,
 User Module,Check User Name Less Than 5 Characters,Your Username must be at between 5-50 characters,https://staging.brandsignals.io/users/,
@@ -12,5 +12,7 @@ User Module,Add Correct Password,Password Accepeted,https://staging.brandsignals
 User Module,Add Wrong Second Password,Passwords do not match,https://staging.brandsignals.io/users/
 User Module,Add Correct Second Password,Passwords match,https://staging.brandsignals.io/users/
 User Module,Click on Add User Button, Button is working,https://staging.brandsignals.io/users/
-User Module,Create User,Email or User Already Exist,https://staging.brandsignals.io/users/
-User Module,Created Username,Shakeel_9T5q,https://staging.brandsignals.io/users/
+User Module,Create User,User Created Successfully!,https://staging.brandsignals.io/users/
+User Module,Created Username,Shakeel_M_NP,https://staging.brandsignals.io/users/
+User Module,Click on Three Dots Button, Button is working,https://staging.brandsignals.io/users/
+User Module,Click on User Details Button,Button is working,https://staging.brandsignals.io/users/user-detail/2322/
